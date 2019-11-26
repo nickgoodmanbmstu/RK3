@@ -11,21 +11,20 @@ CREATE TABLE IF NOT EXISTS `countries`
     ( 'Tver', '', '143', 'RUB'),
 	  ( 'Berlin', 'Germany', '100', 'EUR'),
 	    ( 'London', 'Great Britain', '90', 'EUR'),
-		( 'Rome', 'Italy', '70', 'EUR'),
-		( 'New York', 'USA', '300', 'USD'),  
+		( 'Denver', 'USA', '300', 'USD'),  
 		( 'Kazan', 'Russia', '143', 'RUB'),
 		( 'Rostov', 'Russia', '143', 'RUB'), 
 		( 'Voronezh', 'Russia', '143', 'RUB'),
-		( '', 'Russia', '143', 'RUB'),
 		( 'Saratov', 'Russia', '143', 'RUB'),
 		( 'Uzunovo', 'Russia', '143', 'RUB'),
 		( 'Odintsovo', 'Russia', '143', 'RUB'),
 		( 'Sochi', 'Russia', '143', 'RUB'),
     
-    
+#Task2    
     
     UPDATE countries SET population=500 WHERE country like '%Russia'
-    
+    # Task3
+    SELECT * FROM countries ORDER BY country
 		
 		
 		
